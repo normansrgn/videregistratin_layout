@@ -1,0 +1,185 @@
+.choose_section {
+    border-bottom: 1px solid #0f000eac;
+}
+
+.main_block {
+    padding-top: 60px;
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+
+}
+
+.main_block h1 {
+    font-size: 38px;
+    margin-top: 160px;
+    font-weight: bold;
+}
+
+.card_pics {
+    width: 730px;
+    height: 340px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.cl.swiper-button-prev:after,
+.swiper-rtl .cl.swiper-button-next:after {
+    content: none;
+}
+
+.cl.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: none;
+}
+
+.fa-arrow-left::before {
+}
+
+
+.fa-arrow-left::before {
+    color: #ffeefe;
+}
+
+.fa-arrow-right:before {
+    color: #ffeefe;
+}
+
+.swiper_shop {
+    width: 550px;
+    height: 300px;
+    border-radius: 9px;
+}
+
+.swiper_image {
+    max-width: 100%;
+
+}
+
+.swiper-img__container {
+    width: 550px;
+}
+
+.buttons_block {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.buttons_block button {
+    width: 120px;
+    height: 36px;
+
+}
+
+/* ПОПУЛЯРНЫЕ ТОВАРЫ */
+
+
+.popular_cards {
+    padding-bottom: 60px;
+}
+
+.pupular_products {}
+
+
+.pupular_products h2 {
+    padding-top: 60px;
+    padding-bottom: 44px;
+
+}
+
+.tovar_inf {
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.buy {
+    font-weight: bold;
+}
+
+.tovar_inf span {
+    font-size: 17px;
+
+    text-align: start;
+    /* font-weight: bold; */
+}
+
+
+/* БЛОК ОТЗЫВОВ */
+
+.reviews_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.reviwes_card {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #150b19;
+    width: 271px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.user_name_and_estimation span {
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.user_name_and_estimation img {
+    width: 25%;
+
+}
+
+.user_name_and_estimation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.reviews_card_text {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.reaction_block {
+    padding-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.reaction_block img {
+    gap: 5px;
+    width: 8%;
+}
+
+.reviwes_main_block {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 100px; */
+
+}
+
+.reviwes_main_block h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.reviwes_block {
+    display: flex;
+    /* gap: 30px; */
+    gap: 50px;
+
+}
+
+.reviwes_text {
+    display: flex;
+    align-items: center;
+}
