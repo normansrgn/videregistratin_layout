@@ -1,0 +1,53 @@
+@import url(./bootstrap-grid.css);
+@import url(./reset.css);
+
+.header {
+
+    background-image: url(../index_pics/header/bgk.jpg);
+    width: 1600px;
+    height: 748px;
+    padding: 0px;
+    align-items: center;
+
+
+}
+
+.header_inf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_item {
+    display: flex;
+    padding: 25px;
+    gap: 50px;
+    margin: 10px 0 10px 10px;
+
+}
+
+.navigation_item li {
+    font-size: 16px;
+}
+
+.navigation_link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* transition: 0.3s; */
+
+}
+
+.navigation_link:hover {
+    border-bottom: 1px solid #0f000eac;
+    /* transition: 0.3s; */
+}
+
+.btm {
+    width: 112px;
+    height: 34px;
+    background: none;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid #5C17CD;
+}
