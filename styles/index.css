@@ -222,5 +222,20 @@ main {
 .list_item span {
     font-size: 18px;
     margin-left: 10px;
-    color: rgb(102 102 102);;
+    color: rgb(102 102 102);
+    ;
+}
+
+.app {
+    width: 1600px;
+    height: 425px;
+    background-position: right;
+    background-repeat: no-repeat;
+   background-image: url(../index_pics/app_section_gb.svg);
+}
+
+.dowland_navigation {
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
 }
