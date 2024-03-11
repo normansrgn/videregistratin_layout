@@ -325,7 +325,7 @@ main {
     gap: 22px;
     padding-top: 50px;
     display: flex;
-    padding-bottom: 156px;
+    /* padding-bottom: 156px; */
 
 }
 
@@ -387,4 +387,29 @@ main {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+
+.navigation_icon {
+    display: flex;
+    padding-top: 38px;
+    padding-bottom: 90px;
+    align-items: center;
+    justify-content: end;
+}
+
+.navigation_icon a {
+    text-decoration: none;
+}
+
+.card_navigation {
+    
+    color: #4466FB;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-chevron-right:before {
+   
+    color: #4466FB;
 }
