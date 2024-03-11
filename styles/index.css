@@ -251,9 +251,9 @@ main {
 .choose_rate {
     height: 733px;
     background-color: ;
-  
+
     /* background-repeat: no-repeat; */
-   
+
     background-image: url(../index_pics/rate_bgk.svg);
 }
 
@@ -264,4 +264,43 @@ main {
     color: white;
     font-size: 48px;
     font-weight: bold;
+}
+
+.choode_rate_cards {
+    padding-top: 50px;
+    display: flex;
+    gap: 21px;
+}
+
+.rate_card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 418px;
+    height: 330px;
+    border-radius: 4px;
+    padding: 60px 45px 40px 45px;
+    border: 1px solid white;
+}
+
+.rate_card_title {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.rate_card_price {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.rate_card_description {
+    font-size: 19px;
+    width: 328px;
+    color: rgb(188 186 186);
+}
+
+.rate_card button {
+    width: 100%;
 }
