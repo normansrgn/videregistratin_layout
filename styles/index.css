@@ -413,3 +413,49 @@ main {
    
     color: #4466FB;
 }
+
+
+/* FOOTER */
+
+
+.footer {
+    width: 100%;
+    background-image: url(../index_pics/foot_bgk.svg);
+}
+
+.footer_title {
+    padding-top: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.foot_contacts {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.foot_contacts a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.foot_contacts span {
+    font-size: 16px;
+    color: #53ACFF;
+}
+
+.foot_nav_dowland {
+    padding-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.coopiryte {
+    width: 300px;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 83px;
+}
