@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Play", sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -66,6 +66,13 @@ main {
     border-radius: 4px;
     color: white;
     border: 1px solid #5C17CD;
+    transition: 0.1s ease;
+
+}
+
+.btm:hover {
+    background-color: #5C17CD;
+    transition: 0.1s ease;
 }
 
 .header_inf_block {
@@ -104,8 +111,16 @@ main {
     height: 48px;
     border-radius: 4px;
     border: 0;
+    transition: 0.1s ease;
+
     color: white;
     background-color: #386DF4;
+}
+
+.header_nav_btm:hover {
+    background: none;
+    border: 1px solid #386DF4;
+    transition: 0.1s ease;
 }
 
 
@@ -142,10 +157,10 @@ main {
     padding-bottom: 50px;
 }
 
-.card_serv_block  {
+.card_serv_block {
     display: flex;
     justify-content: center;
-    gap: 44px;
+    gap: 70px;
     flex-wrap: wrap;
 }
 
@@ -168,19 +183,21 @@ main {
     padding: 10px;
 }
 
-.card_text {display: flex;
+.card_text {
+    display: flex;
+    color: #333333;
     flex-direction: column;
     gap: 20px;
     padding: 0 45px 0 45px 0;
 }
 
 .card_text h1 {
-    font-size: 20px ;
+    font-size: 20px;
     text-align: start;
 }
 
 .card_small_text {
     font-size: 16px;
     width: 280px;
-}   
-
+    color: rgb(102 102 102);
+}
