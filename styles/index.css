@@ -65,14 +65,16 @@ main {
     font-size: 16px;
     border-radius: 4px;
     color: white;
+
     border: 1px solid #5C17CD;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 
 }
 
 .btm:hover {
+    cursor: pointer;
     background-color: #5C17CD;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 .header_inf_block {
@@ -111,7 +113,8 @@ main {
     height: 48px;
     border-radius: 4px;
     border: 0;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
+    cursor: pointer;
 
     color: white;
     background-color: #386DF4;
@@ -120,7 +123,7 @@ main {
 .header_nav_btm:hover {
     background: none;
     border: 1px solid #386DF4;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 
@@ -203,7 +206,7 @@ main {
 }
 
 .servieses {
-    padding-bottom: 120px;
+    padding-bottom: 190px;
 }
 
 .app_main_text {
@@ -231,7 +234,7 @@ main {
     height: 425px;
     background-position: right;
     background-repeat: no-repeat;
-   background-image: url(../index_pics/app_section_gb.svg);
+    background-image: url(../index_pics/app_section_gb.svg);
 }
 
 .dowland_navigation {
@@ -241,6 +244,24 @@ main {
 }
 
 .fa-check:before {
-    
+
     color: #4466FB;
+}
+
+.choose_rate {
+    height: 733px;
+    background-color: ;
+  
+    /* background-repeat: no-repeat; */
+   
+    background-image: url(../index_pics/rate_bgk.svg);
+}
+
+/* CHOOSE RATE SECTION  */
+
+.choose_tate_title {
+    padding-top: 120px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
 }
