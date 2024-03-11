@@ -249,7 +249,8 @@ main {
 }
 
 .choose_rate {
-    height: 733px;
+    width: 100%;
+    
     background-color: ;
 
     /* background-repeat: no-repeat; */
@@ -270,6 +271,9 @@ main {
     padding-top: 50px;
     display: flex;
     gap: 21px;
+    padding-bottom: 120px;
+   
+
 }
 
 .rate_card {
@@ -302,5 +306,6 @@ main {
 }
 
 .rate_card button {
+   
     width: 100%;
 }
