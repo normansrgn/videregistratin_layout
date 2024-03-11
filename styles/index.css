@@ -143,6 +143,10 @@ main {
 }
 
 .servies_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 370px;
     height: 434px;
     /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
@@ -155,3 +159,9 @@ main {
     /* Параметры тени */
     padding: 10px;
 }
+
+.card_text h1 {
+    font-size: 20px ;
+    text-align: start;
+}
+
