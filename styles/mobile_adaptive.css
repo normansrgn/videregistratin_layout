@@ -86,7 +86,7 @@
 @media (max-width: 765px) {
 
     .serviess_small_text {
-       display: none;
+        display: none;
     }
 
     .app_main_text {
@@ -144,11 +144,34 @@
 
 
 
-        .header_inf {
-            justify-content: space-around;
-        }
 
-        .pc_image {
-            width: 94%;
-        }
+    .header_inf {
+        justify-content: space-around;
     }
+
+    .header_img {
+        width: 376px;
+    }
+
+    .servies_main_text {
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+
+    }
+
+    .raed_title {
+        padding-top: 20px;
+        font-size: 30px;
+        padding-bottom: 0px;
+
+    }
+
+    .foot_inf {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+}
