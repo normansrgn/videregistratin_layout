@@ -1,5 +1,6 @@
 @import url(./bootstrap-grid.css);
 @import url(./reset.css);
+@import url(./mobile_adaptive.css);
 
 * {
     font-family: inherit;
@@ -275,6 +276,7 @@ main {
     padding-top: 50px;
     display: flex;
     gap: 21px;
+    justify-content: center;
     padding-bottom: 120px;
 
 
@@ -327,6 +329,7 @@ main {
 
 .read_cards {
     gap: 22px;
+    justify-content: center;
     padding-top: 50px;
     display: flex;
     /* padding-bottom: 156px; */

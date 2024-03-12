@@ -1,0 +1,20 @@
+@media (max-width: 1385px) {
+    .rate_card {
+        width: 290px;
+    }
+
+    .read_card {
+        width: 297px;
+    }
+
+}
+
+@media (max-width: 1219px) {
+    .choode_rate_cards {
+        flex-wrap: wrap;
+    }
+
+    .read_cards {
+        flex-wrap: wrap;
+    }
+}
