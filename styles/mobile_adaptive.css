@@ -1,20 +1,93 @@
 @media (max-width: 1385px) {
     .rate_card {
-        width: 290px;
+        /* width: 290px; */
     }
 
-    .read_card {
-        width: 297px;
+
+
+    .servies_card {
+        width: 350px;
+        height: 380px;
     }
+
+    .adaptive {
+        width: 719px;
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
 
 }
 
 @media (max-width: 1219px) {
+
+
+    .read_cards {
+        flex-wrap: wrap;
+    }
+
     .choode_rate_cards {
         flex-wrap: wrap;
     }
 
-    .read_cards {
-        flex-wrap: wrap;
+}
+
+@media (max-width: 1178px) {
+    .small_navigation {
+        display: none;
+    }
+
+    .header_img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header_inf_block {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .gg {
+        display: block;
+    }
+
+
+
+}
+
+
+@media (max-width: 990px) {
+    .adaptive {
+        width: 350px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_form {
+        display: none;
+    }
+
+    .foot_inf {
+
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 765px) {
+    .app_main_text {
+        font-size: 24px;
+        width: 400px;
+    }
+
+    .serviess_small_text {
+    
+        width: 570px;
     }
 }
