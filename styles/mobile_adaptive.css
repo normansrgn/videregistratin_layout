@@ -25,6 +25,9 @@
 
 @media (max-width: 1219px) {
 
+    .navigation_icon {
+        justify-content: center;
+    }
 
     .read_cards {
         flex-wrap: wrap;
@@ -112,6 +115,15 @@
 
     .header_main_text {
         padding-bottom: 30px;
+    }
+
+    .foot_inf {
+        justify-content: center;
+        gap: 23px;
+    }
+
+    .header_img {
+        width: 450px;
     }
 }
 
