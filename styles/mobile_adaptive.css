@@ -81,13 +81,62 @@
 }
 
 @media (max-width: 765px) {
+
+    .serviess_small_text {
+       display: none;
+    }
+
     .app_main_text {
         font-size: 24px;
         width: 400px;
     }
 
     .serviess_small_text {
-    
+
         width: 570px;
     }
 }
+
+@media (max-width: 685px) {
+    .hidden {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+    }
+
+    .header_inf_block {
+        padding-top: 30px;
+    }
+
+    .header_main_text {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+    .header_main_text {
+        font-size: 24px;
+        width: 266px;
+    }
+
+    .servies_main_text {
+        font-size: 24px;
+        width: 266px;
+
+    }
+
+
+
+
+        .header_inf {
+            justify-content: space-around;
+        }
+
+        .pc_image {
+            width: 94%;
+        }
+    }
