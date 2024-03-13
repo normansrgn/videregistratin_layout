@@ -101,6 +101,21 @@
 }
 
 @media (max-width: 685px) {
+    .raed_title {
+       
+        width: 300px;
+    }
+
+    .read_card {
+    
+        width: 250px;
+    }
+
+
+    .read_card_title {
+        width: 300px;
+    }
+
     .hidden {
         display: none;
     }
@@ -173,5 +188,7 @@
         align-items: center;
         padding-bottom: 50px;
     }
+
+
 
 }
